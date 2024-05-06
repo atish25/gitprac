@@ -1,0 +1,43 @@
+mkdir atish 
+cd atish 
+git init 
+git add 
+git commit -m "first commit"
+git log 
+git branch 
+git branch master -----> create branch 
+git checkout main ......> switch branch 
+git branch 
+git remote add origin <git url>
+git push branch -u <branch name>
+cd 
+mkdir dev 
+cd dev 
+git init 
+git clone <git url>
+git log 
+
+
+git revert
+``````````
+
+nano dev.py .....> add new line 
+-- add new line
+git add .
+git commit -m "second commit"
+git log 
+git branch -----> first check which branch you want to push your code its imp
+git push origin -u master 
+
+nano dev.py 
+gid add . 
+git commit -m "third commit"
+git log 
+git push origin -u master 
+
+for copy commit id 
+```````````````````
+git log 
+git revert <paste commit id> 
+git log .....> check for reverting or not 
+cat dev.py   
